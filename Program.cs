@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Multiply(primerDigito, ultimoDigito));
+            Console.WriteLine(Multiply(2, 7));
         }
 
         static int Add(int x, int y)
