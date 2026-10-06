@@ -4,12 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Add(2, 4));
+            Console.WriteLine(Multiply(primerDigito, ultimoDigito));
         }
 
         static int Add(int x, int y)
         {
             return x + y;
+        }
+        static int Multiply(int x, int y)
+        {
+            return x * y;
         }
     }
 }
